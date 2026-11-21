@@ -15,6 +15,7 @@ android {
 
     defaultConfig {
         minSdk = 14
+        targetSdk = 34
         vectorDrawables.useSupportLibrary = true
     }
     lint {

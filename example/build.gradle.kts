@@ -7,6 +7,7 @@ android {
     defaultConfig {
         applicationId = "com.ncorti.slidetoact.example"
         minSdk = 14
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -15,6 +16,10 @@ android {
         abortOnError = true
     }
     namespace = "com.ncorti.slidetoact.example"
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
 }
 
 dependencies {
